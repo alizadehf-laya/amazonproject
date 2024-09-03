@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon by laya alizadeh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container" id="bookmark2">
+        <header>
+            <a href="/"><img id="logo" src="picture/download (2).jpg" alt="logo"></a>
+            <div class="deliver">
+                <p style="margin-left: 14px;">Deliver to</p>
+                <div class="location">
+                    <i class="fa fa-neuter" aria-hidden="true"></i>
+                    <h1 style=" margin-left: 3px;">united kingdom</h1>
+                </div>              
+            </div>
+            <div class="middle">
+                <div class="dropdown">
+                    <div class="all">
+                        <p id="txt">All</p>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="in-drop" id="in-drop">
+                        <ul id="drop">
+                            <li> <a href="#">All Departure</a></li>
+                            <li> <a href="#">Art & Craft</a></li>
+                            <li> <a href="#">Atomotive</a></li>
+                            <li> <a href="#">Baby</a></li>
+                            <li> <a href="#">beauty & personal care</a></li>
+                            <li> <a href="#">Book</a></li>
+                            <li> <a href="#">Boys Fashion</a></li>
+                            <li> <a href="#">camputer</a></li>
+                            <li> <a href="#">Deals</a></li>
+                            <li> <a href="#">Digitals music</a></li>
+                        </ul>
+                    </div>           
+                </div>
+               <input type="search" placeholder="search amazon" id="search">
+               <button id="btn"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="english" onclick="toggleEn()">
+                <img src="picture/flag.jpg" id="pic1" alt="flag">
+                <p style="font-weight: bold;color: white;padding: 15px;">EN</p>
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <div class="sub-en" id="sub-menuEn">
+                    <div class="sub-menu-en">
+                        <div class="en-info">
+                            <p>change language   .<a href="#" style="color: blue;">  learn more</a></p>
+                            <form action="self" id="form2" method="post">
+                                <input type="radio" name="lan">English -EN
+                                <hr>
+                                <input type="radio"  name="lan">esponal-ES<br>
+                                <input type="radio"  name="lan">العربیه-AR<br>
+                                <input type="radio"  name="lan">Deutsch-DE<br>
+                                <input type="radio"  name="lan">Portugues-PT<br>
+                                <input type="radio"  name="lan">chinese-CH
+                                <hr>
+                            </form>
+                            <p>change currency  .<a  href="#" style="color: blue;">  learn more</a></p>
+                            <hr>
+                            <p>you are shopping on Amazon.com</p>                          
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="account" onclick="togglemenu()">
+                <p>Hello,sign in</p>
+                    <h2>Accounts & lists  <i class="fa fa-caret-down" aria-hidden="true"></i></h2>
+                 <div class="sub-menu-wrap" id="submenu">
+                    <div class="sub-menu">
+                        <div class="Account-info">
+                            <div id="Ac-top">
+                                <div class="Account-box">Sign In</div>
+                                <div id="Ac-box">
+                                    <p>New Customer?</p>
+                                    <a href="#">Start Here</a>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div id="left-right">
+                                <div class="ac-right">
+                                    <h5>Your List</h5>
+                                    <p>Find a List or Registry</p>
+                                    <p>Create a List</p>
+                                    <p>Video Purchase & Rental</p>
+                                </div>
+                                <div class="ac-left">
+                                    <h5>Your Account</h5>
+                                    <p>Account</p>
+                                    <p>Orders</p>
+                                    <p>Recommendation</p>
+                                    <p>Browsing History</p>
+                                    <p>Watchlist</p>         
+                                </div>
+                            </div>                          
+                                           
+                        </div>
+                    </div>
+                 </div>                   
+            </div>
+
+            <div class="account">
+                <a href="index2.html">
+                    <p>Returns</p>           
+                    <h2>& Orders </h2>  
+                </a>
+              
+               
+            </div> 
+            <div class="c1">
+                <a href="" class="nav-cart "><img src="picture/cart.jpg" width="52px" alt="cart"></a>
+                <h4>cart</h4>       
+            </div>
+       
+               
+        </header>
+        <!-- slidebar navigation -->
+<div class="slidbar-container-navigation" id="slidbar-container-navigation-id">
+<div class="slidbar-left-part">
+    <div class="sidebar-top">
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        <h2>hello,<span>sign in</span></h2>
+    </div>
+    <div class="sidabar-wrap">
+        <div class="slidebar-item">
+            <h2>Digital Content & Devices</h2>
+            <p>Best sellers</p>
+            <p>kendle E reads and boy</p>
+            <p>New Release</p>
+            <p>Movers and Shakers</p>
+            <p>see more</p>
+        </div>
+        <div class="slidebar-item">
+            <h2>Shop by Department</h2>
+            <p>electronic</p>
+            <p>computers</p>
+            <p>smart Home</p>
+            <p>Art & crafts</p>
+            <p>see more</p>
+        </div>
+        <div class="slidebar-item">
+            <h2>Programs & Features</h2>
+            <p>gifts cards</p>
+            <p>shop by internet</p>
+            <p>Amazon live</p>
+            <p>international shopping</p>
+            <p>see more</p>
+        </div>
+        <div class="slidebar-item">
+            <h2>Help & Setting</h2>
+            <p>Your Account</p>
+            <p>English</p>
+            <p>United States</p>
+            <p>Customer Service</p>
+            <p>see more</p>
+        </div>
+    </div>
+
+</div>
+<button id="slidbar-navigation-close">
+    <i class="fa fa-window-close" aria-hidden="true"></i>
+</button>
+</div>
+
+
+
+
+<!--------------------------- finish slidbar navigation -->
+        <div class="header2">
+            <ul>
+                <li id="open-nav-slider"><a href="#" ><i class="fa fa-bars" aria-hidden="true"></i>All</a></li>
+                <li><a href="today.html">Todays Deal</a></li>
+                <li><a href="customer.html">Customers Service</a></li>
+                <li><a href="#">Registery</a></li>
+                <li><a href="#">Gifts Carts</a></li>
+                <li><a href="#">Sell</a></li>         
+            </ul>
+        </div>
+        <div class="header-slider">
+            <a href="#" class="control-prev">&#8592</a>
+            <a href="#" class="control-next">&#8594</a>
+            <ul>
+                <img src="picture/header1.jpg"alt="picture" class="header-img">
+                <img src="picture/header2.jpg"alt="picture" class="header-img">
+                <img src="picture/header3.jpg"alt="picture" class="header-img">
+                <img src="picture/header4.jpg"alt="picture" class="header-img">
+                <img src="picture/header5.jpg"alt="picture" class="header-img">
+                <img src="picture/header6.jpg"alt="picture" class="header-img">
+            </ul>
+        </div>
+        <!-- boxes row -->
+         <!-- boxes part1 -->
+<div class="box-row h-box">
+    <div class="box-col">
+        <h3>Gaming accessories</h3>
+        <div class="pic-game">
+            <div class="pgv">
+                <img src="picture/s1.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">headset</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/s2.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">keyboard</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/s3.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">mice</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/s4.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">chair</p>
+            </div>
+            
+        </div>
+        <a href="/">shop more</a>
+    </div>
+    <div class="box-col">
+        <h3>free international returns</h3>
+        <div class="pic-game">
+            <div class="pgv">
+                <img src="picture/s7.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">dinning</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/s8.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">home</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/s9.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">kitchen</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/s10.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">health & beauty</p>
+            </div>
+        </div>
+        <a href="/">shop more</a>
+    </div>
+    <div class="box-col">
+        <h3>Fashion trends you like</h3>
+        <div class="pic-game">
+            <div class="pgv">
+                <img src="picture/a2.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">jeans under25$</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/a3.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">tops under 50$</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/a4.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">dress under40$</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/a5.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">shoes under 60$</p>
+            </div>
+        </div>
+        <a href="/">shop more</a>
+    </div>
+    <div class="box-col">
+        <h3>Deals in PCs</h3>
+        <img src="picture/s6.jpg" alt="pic" class="pic-gm-tak">
+        <a href="/" style="margin-top: 20px;">shop more</a>
+    </div>
+</div>
+<!-- boxes part2 -->
+<div class="box-row">
+    <div class="box-col-nopadding">
+        <h3>Home décor under $50</h3>
+        <img src="picture/a1.jpg" alt="pic" class="pic-gm-tak">
+        <a href="/" style="margin-top: 20px;">shop more</a>
+    </div>
+    <div class="box-col">
+        <h3>Fashion trends you like</h3>
+        <div class="pic-game">
+            <div class="pgv">
+                <img src="picture/a6.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">headset</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/a7.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">quitar</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/a8.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">piano</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/a9.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">microphone</p>
+            </div>
+        </div>
+        <a href="/">shop more</a>
+    </div>
+    <div class="box-col">
+        <h3>updates for elevated spaces</h3>
+        <div class="pic-game " >
+            <div class="pgv">
+                <img src="picture/z1.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">flower</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/z2.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">beauty chair</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/z3.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">cusion</p>
+            </div>
+            <div class="pgv">
+                <img src="picture/z4.jpg" alt="pic" class="pic-gm">
+                <p class="fsmall">decor</p>
+            </div>
+        </div>
+        <a href="/">shop more</a>
+    </div>
+    <div class="box-col">
+        <h3>Shop deals in Fashion</h3>
+        <img src="picture/a8.jpg" alt="pic"  class="pic-gm-tak">
+        <a href="/" style="margin-top: 20px;">shop more</a>
+    </div>
+</div>
+         <!-- boxes part3 -->
+         <div class="box-row">
+            <div class="box-col">
+                <h3>Level up your gaming</h3>
+                <div class="pic-game">
+                    <div class="pgv">
+                        <img src="picture/n1.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">Pc Gaming</p>
+                    </div>
+                    <div class="pgv">
+                        <img src="picture/n2.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">Xbox</p>
+                    </div>
+                    <div class="pgv">
+                        <img src="picture/n3.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">Playstation</p>
+                    </div>
+                    <div class="pgv">
+                        <img src="picture/n4.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">Ninteno Switch</p>
+                    </div>
+                </div>
+                <a href="/">shop more</a>
+            </div>
+            <div class="box-col">
+                <h3>Look your best this season</h3>
+                <div class="pic-game">
+                    <div class="pgv">
+                        <img src="picture/n5.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">For her</p>
+                    </div>
+                    <div class="pgv">
+                        <img src="picture/n6.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">For him</p>
+                    </div>
+                    <div class="pgv">
+                        <img src="picture/n7.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">For teens</p>
+                    </div>
+                    <div class="pgv">
+                        <img src="picture/n8.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">For kids</p>
+                    </div>
+                </div>
+                <a href="/">shop more</a>
+            </div>
+            <div class="box-col">
+                <h3>Have more fun with family</h3>
+                <div class="pic-game">
+                    <div class="pgv">
+                        <img src="picture/n10.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">Outdoor play sets</p>
+                    </div>
+                    <div class="pgv">
+                        <img src="picture/n11.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">Learning toys</p>
+                    </div>
+                    <div class="pgv">
+                        <img src="picture/n12.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">Action fiqures</p>
+                    </div>
+                    <div class="pgv">
+                        <img src="picture/n13.jpg" alt="pic" class="pic-gm">
+                        <p class="fsmall">pretend play toys</p>
+                    </div>
+                </div>
+                <a href="/">shop more</a>
+            </div>
+            <div class="box-col">
+                <h3>Fantastic Finds for Home</h3>
+                <img src="picture/n14.jpg" alt="pic" class="pic-gm-tak">
+                <p>kitchen</p>
+                <a href="/" style="margin-top: 20px;">shop more</a>
+            </div>
+        </div>
+
+         <!-- finish-boxes -->
+        <div class="boxes"></div>
+        <div class="product-slider">
+            <h2>Best Sellers in Sports & Outdoors</h2>
+            <div class="prouducts">
+                <img src="picture/d1.jpg" alt="">
+                <img src="picture/d2.jpg" alt="">
+                <img src="picture/d3.jpg" alt="">
+                <img src="picture/d4.jpg" alt="">
+                <img src="picture/d5.jpg" alt="">
+                <img src="picture/d6.jpg" alt="">
+                <img src="picture/d7.jpg" alt="">
+                <img src="picture/d8.jpg" alt="">
+                <img src="picture/d9.jpg" alt="">
+                <img src="picture/d10.jpg" alt="">
+            </div>
+        </div> 
+    <div class="sign-in">
+        <div class="vasat">
+            <p>see personalized Recommendation</p>
+            <button id="sign-btn">sign in</button>
+            <div class="atn">
+                <p>my custumer?</p>
+                <a>start here</a>
+            </div>
+        </div>      
+    </div>
+    <div class="top-footer"><a href="#bookmark2">Back to Top</a></div>
+    <div class="footer">
+        <div class="col1">
+            <h4>Get to Know Us</h4>
+            <ul>
+                <li><a href="#">careers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Amazon</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Amazon Devices</a></li>
+                <li><a href="#">Amazon Science</a></li>
+            </ul>
+        </div>
+        <div class="col2">
+            <h4>Make Money with Us</h4>
+            <ul>
+                <li><a href="#">Sell products on Amazon</a></li>
+                <li><a href="#">sell on Amazon Business</a></li>
+                <li><a href="#">Sell Apps on Amazon</a></li>
+                <li><a href="#">Becom an Affiliate</a></li>
+                <li><a href="#">Advertise Your Prouduct</a></li>
+                <li><a href="#">self-Publish with Us</a></li>
+                <li><a href="#">host An Amazon Hub</a></li>
+                <li><a href="#">>see more make money with us</a></li>
+            </ul>
+        </div>
+        <div class="col3">
+            <h4>Amazon Payment Products</h4>
+            <ul>
+                <li><a href="#">Amazon Business Card</a></li>
+                <li><a href="#">Shop with Points</a></li>
+                <li><a href="#">Reload Your Ballance</a></li>
+                <li><a href="#">Amazon Currency Convertor</a></li>
+            </ul>
+        </div>
+        <div class="col4">
+            <h4>Let Us Help You</h4>
+            <ul>
+                <li><a href="#">Amazon and Covid-19</a></li>
+                <li><a href="#">your Account</a></li>
+                <li><a href="#">your Order</a></li>
+                <li><a href="#">shipping Rates & Policies</a></li>
+                <li><a href="#">Returns & Replacements</a></li>
+                <li><a href="#">Manage Your Content and Devices</a></li>
+                <li><a href="#">Amazon Assistance</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+     <div class="english">
+        <img src="picture/a.jpg" id="downAmazon">
+        <div class="engli1">
+            <p><i class="fa fa-globe" aria-hidden="true"></i> English</p>
+            <p> <i class="fa fa-usd" aria-hidden="true"></i> USD-U.S.Dollar</p>
+            <p><img src="picture/flag.jpg" id="flag"> States</p>
+        </div>
+     </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
